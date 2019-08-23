@@ -1,0 +1,37 @@
+1564581877395	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3d/wxbr3zm13nzd3l_n4kflvvnw0000gn/T/rust_mozprofile.dfifIa75OMEt"
+1564581879046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564581879047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564581879047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564581881736	Marionette	INFO	Listening on port 50429
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564532590680%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1564582450564	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/3d/wxbr3zm13nzd3l_n4kflvvnw0000gn/T/rust_mozprofile.oT1WwH5z1zv9"
+1564582451505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564582451506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564582451508	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564582451508	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564582455026	Marionette	INFO	Listening on port 52988
+1564582455165	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1564582506561	Marionette	INFO	Stopped listening on port 52988
+[Parent 32020, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+[Parent 32020, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32020, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32020, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32020, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32020, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+[Parent 32020, Gecko_IOThread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc, line 23
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0069,name=PBrowser::Msg_UpdateDimensions) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0088,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1564596694018	Marionette	INFO	Stopped listening on port 50429
